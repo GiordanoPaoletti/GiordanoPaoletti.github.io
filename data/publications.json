@@ -1,37 +1,55 @@
 {
   "last_updated": "2026-06-02",
-  "source": "seed (CV) — will be overwritten by Google Scholar action once configured",
-  "scholar_profile": "https://scholar.google.com/citations?user=Nm7mot8AAAAJ&hl=it",
+  "source": "Google Scholar",
+  "scholar_profile": "https://scholar.google.com/citations?user=Nm7mot8AAAAJ",
   "publications": [
     {
-      "title": "Join the Chat: How Curiosity Sparks Participation in Telegram Groups",
-      "venue": "AAAI ICWSM",
+      "title": "Topic-wise exploration of the Telegram group-verse",
+      "venue": "Companion Proceedings of the ACM on Web Conference 2025, 1792-1801, 2025",
       "year": 2025,
-      "url": ""
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Nm7mot8AAAAJ&citation_for_view=Nm7mot8AAAAJ:UeHWp8X0CEIC"
     },
     {
-      "title": "Tracing the 2024 U.S. Election Debate on Telegram with LLMs and Graph Analysis",
-      "venue": "Social Network Analysis and Mining",
+      "title": "CoDÆN: Benchmarks and comparison of evolutionary community detection algorithms for dynamic networks",
+      "venue": "ACM Transactions on the Web 19 (3), 1-25, 2025",
       "year": 2025,
-      "url": ""
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Nm7mot8AAAAJ&citation_for_view=Nm7mot8AAAAJ:IjCSPb-OGe4C"
     },
     {
       "title": "MAD: Multicriteria Anomaly Detection of Suspicious Financial Accounts from Billions of Cash Transactions",
-      "venue": "ACM SIGKDD",
+      "venue": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and …, 2025",
       "year": 2025,
-      "url": ""
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Nm7mot8AAAAJ&citation_for_view=Nm7mot8AAAAJ:Y0pCki6q_DkC"
     },
     {
-      "title": "CoDÆN: Benchmarks and Comparison of Evolutionary Community Detection Algorithms",
-      "venue": "ACM TWEB",
+      "title": "Join the chat: How curiosity sparks participation in Telegram groups",
+      "venue": "Proceedings of the International AAAI Conference on Web and Social Media 19 …, 2025",
       "year": 2025,
-      "url": ""
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Nm7mot8AAAAJ&citation_for_view=Nm7mot8AAAAJ:zYLM7Y9cAGgC"
     },
     {
-      "title": "Political Context of the European Vaccine Debate on Twitter",
-      "venue": "Scientific Reports",
+      "title": "Tracing the 2024 US election debate on Telegram with LLMs and graph analysis",
+      "venue": "Social Network Analysis and Mining 15 (1), 91, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Nm7mot8AAAAJ&citation_for_view=Nm7mot8AAAAJ:W7OEmFMy1HYC"
+    },
+    {
+      "title": "Revelando a dinâmica das discussões em grupos públicos do Telegram: um estudo sobre as eleições no Brasil em 2022",
+      "venue": "Brazilian Workshop on Social Network Analysis and Mining (BraSNAM), 255-268, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Nm7mot8AAAAJ&citation_for_view=Nm7mot8AAAAJ:Tyk-4Ss8FVUC"
+    },
+    {
+      "title": "Political context of the European vaccine debate on Twitter",
+      "venue": "Scientific reports 14 (1), 4397, 2024",
       "year": 2024,
-      "url": ""
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Nm7mot8AAAAJ&citation_for_view=Nm7mot8AAAAJ:2osOgNQ5qMEC"
+    },
+    {
+      "title": "Benchmarking evolutionary community detection algorithms in dynamic networks",
+      "venue": "arXiv preprint arXiv:2312.13784, 2023",
+      "year": 2023,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Nm7mot8AAAAJ&citation_for_view=Nm7mot8AAAAJ:9yKSN-GCB0IC"
     }
   ]
 }
