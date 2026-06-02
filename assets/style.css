@@ -90,24 +90,42 @@ a:hover { text-decoration: underline; }
   align-items: center;
   justify-content: space-between;
 }
-.nav-brand { display: inline-flex; }
+.nav-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+}
 .nav-brand:hover { text-decoration: none; }
-.logo-mark {
+.logo-graph {
+  overflow: visible;
+  filter: drop-shadow(0 0 5px var(--accent-glow));
+  transition: filter .25s ease, transform .25s ease;
+}
+.logo-edges line {
+  stroke: var(--accent);
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  opacity: .55;
+}
+.logo-nodes circle {
+  fill: var(--accent);
+}
+.logo-node-main {
+  fill: var(--accent-2);
+}
+.logo-text {
   font-weight: 800;
-  font-size: 1rem;
-  letter-spacing: .06em;
-  color: var(--accent);
-  border: 1.5px solid var(--border-glow);
-  border-radius: 10px;
-  padding: .2rem .5rem;
-  background: rgba(0, 255, 198, .06);
-  box-shadow: 0 0 14px rgba(0, 255, 198, .25), inset 0 0 10px rgba(0, 255, 198, .08);
+  font-size: 1.05rem;
+  letter-spacing: .08em;
+  color: var(--text);
   text-shadow: 0 0 10px var(--accent-glow);
-  transition: all .2s ease;
+  transition: color .25s ease;
 }
-.nav-brand:hover .logo-mark {
-  box-shadow: 0 0 22px rgba(0, 255, 198, .5), inset 0 0 14px rgba(0, 255, 198, .15);
+.nav-brand:hover .logo-graph {
+  filter: drop-shadow(0 0 9px var(--accent));
+  transform: rotate(-8deg) scale(1.05);
 }
+.nav-brand:hover .logo-text { color: var(--accent); }
 .nav-links { display: flex; gap: 1.25rem; }
 .nav-links a {
   color: var(--text-soft);
