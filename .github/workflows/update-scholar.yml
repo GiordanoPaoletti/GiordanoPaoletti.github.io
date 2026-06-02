@@ -10,6 +10,10 @@ on:
 permissions:
   contents: write
 
+env:
+  # Google Scholar profile ID (the `user=` value in the profile URL). Public info.
+  SCHOLAR_ID: "Nm7mot8AAAAJ"
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -24,16 +28,10 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch publications
-        env:
-          SCHOLAR_ID: ${{ vars.SCHOLAR_ID }}
         run: python scripts/update_publications.py
 
       - name: Commit changes if any
         run: |
-          if [[ -z "${{ vars.SCHOLAR_ID }}" ]]; then
-            echo "SCHOLAR_ID repository variable not set; skipping."
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if ! git diff --quiet -- data/publications.json; then

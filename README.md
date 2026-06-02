@@ -32,19 +32,15 @@ git push -u origin main
 ### 2. Enable GitHub Pages
 Repo → **Settings → Pages** → Source: **Deploy from a branch** → Branch: `main` / root.
 
-### 3. Enable the Scholar auto-update
-Find your Scholar ID — it is the `user=` value in your profile URL
-(`https://scholar.google.com/citations?user=XXXXXXXXXXXX`).
-
-Repo → **Settings → Secrets and variables → Actions → Variables tab** →
-**New repository variable**: name `SCHOLAR_ID`, value = your ID.
-
-Then run the workflow once manually: **Actions → "Update publications from
-Google Scholar" → Run workflow**. After that it runs daily at 05:30 UTC.
+### 3. Scholar auto-update
+The Scholar ID is already set in `.github/workflows/update-scholar.yml`
+(`SCHOLAR_ID: "Nm7mot8AAAAJ"`). Just run the workflow once manually:
+**Actions → "Update publications from Google Scholar" → Run workflow**.
+After that it runs daily at 05:30 UTC.
 
 > Note: Google Scholar has no official API. The job scrapes the public profile
 > and occasionally gets rate-limited; on those days it simply skips and retries
-> the next day. Until `SCHOLAR_ID` is set, the site shows the seed list from the CV.
+> the next day. Until the first run, the site shows the seed list from the CV.
 
 ## Run locally
 
