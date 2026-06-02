@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# CV build artifacts
+CV_Giordano_Paoletti/*.aux
+CV_Giordano_Paoletti/*.log
+CV_Giordano_Paoletti/*.out
+CV_Giordano_Paoletti/*.pdf

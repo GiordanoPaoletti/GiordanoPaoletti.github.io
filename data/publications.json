@@ -1,0 +1,37 @@
+{
+  "last_updated": "2026-06-02",
+  "source": "seed (CV) — will be overwritten by Google Scholar action once configured",
+  "scholar_profile": "https://bit.ly/4mNCDYG",
+  "publications": [
+    {
+      "title": "Join the Chat: How Curiosity Sparks Participation in Telegram Groups",
+      "venue": "AAAI ICWSM",
+      "year": 2025,
+      "url": ""
+    },
+    {
+      "title": "Tracing the 2024 U.S. Election Debate on Telegram with LLMs and Graph Analysis",
+      "venue": "Social Network Analysis and Mining",
+      "year": 2025,
+      "url": ""
+    },
+    {
+      "title": "MAD: Multicriteria Anomaly Detection of Suspicious Financial Accounts from Billions of Cash Transactions",
+      "venue": "ACM SIGKDD",
+      "year": 2025,
+      "url": ""
+    },
+    {
+      "title": "CoDÆN: Benchmarks and Comparison of Evolutionary Community Detection Algorithms",
+      "venue": "ACM TWEB",
+      "year": 2025,
+      "url": ""
+    },
+    {
+      "title": "Political Context of the European Vaccine Debate on Twitter",
+      "venue": "Scientific Reports",
+      "year": 2024,
+      "url": ""
+    }
+  ]
+}
