@@ -5,15 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Giordano Paoletti — PhD Researcher</title>
   <meta name="description" content="Giordano Paoletti — Ph.D. Researcher in AI for social networks, misinformation, and large-scale graph analysis at Politecnico di Torino (SmartData@PoliTO)." />
+  <meta name="theme-color" content="#07090c" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23070b0d'/%3E%3Ctext x='50%25' y='54%25' font-family='Inter,sans-serif' font-size='34' font-weight='800' fill='%2300ffc6' text-anchor='middle' dominant-baseline='middle'%3EGP%3C/text%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
+  <div class="bg-layer" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+  </div>
+
   <header class="site-header">
     <nav class="nav">
-      <a class="nav-brand" href="#top">GP</a>
+      <a class="nav-brand" href="#top"><span class="logo-mark">GP</span></a>
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
@@ -28,6 +36,12 @@
     <!-- HERO -->
     <section class="hero">
       <div class="hero-inner">
+        <div class="hero-photo">
+          <img src="assets/profile.jpg" alt="Giordano Paoletti" loading="eager" />
+          <span class="hero-photo-ring" aria-hidden="true"></span>
+        </div>
+
+        <div class="hero-text">
         <p class="hero-eyebrow">Ph.D. Researcher</p>
         <h1 class="hero-name">Giordano Paoletti</h1>
         <p class="hero-tagline">AI &amp; Social Networks · Misinformation · Graph Mining</p>
@@ -43,6 +57,7 @@
           <a class="btn" href="https://github.com/GiordanoPaoletti" target="_blank" rel="noopener">GitHub</a>
           <a class="btn" href="https://scholar.google.com/citations?user=" id="scholar-link" target="_blank" rel="noopener">Scholar</a>
           <a class="btn" href="https://smartdata.polito.it/members/giordano-paoletti/" target="_blank" rel="noopener">SmartData@PoliTO</a>
+        </div>
         </div>
       </div>
     </section>
