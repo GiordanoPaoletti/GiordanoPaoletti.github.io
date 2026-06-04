@@ -4,7 +4,7 @@ on:
   schedule:
     # Daily at 05:30 UTC. Scholar may occasionally rate-limit; the job just
     # skips committing on those days and retries the next run.
-    - cron: "30 5 * * *"
+    - cron: "30 5 1 * *"
   workflow_dispatch: {}
 
 permissions:
