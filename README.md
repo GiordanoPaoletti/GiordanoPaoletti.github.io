@@ -1,4 +1,4 @@
-# Giordano Paoletti — Personal Website
+# Giordano Paoletti - Personal Website
 
 Static personal site (GitHub Pages) presenting my CV, with publications auto-synced
 daily from Google Scholar via GitHub Actions.
